@@ -54,7 +54,7 @@ docker run -v "%cd%\input:/app/input" -v "%cd%\output:/app/output" pdf-outline-e
 ---
 
 ## 🧪 Example Output
-
+```
 {
   "title": "Understanding AI",
   "outline": [
@@ -63,5 +63,5 @@ docker run -v "%cd%\input:/app/input" -v "%cd%\output:/app/output" pdf-outline-e
     { "level": "H3", "text": "Symbolic AI", "page": 3 }
   ]
 }
-
+```
 ---
