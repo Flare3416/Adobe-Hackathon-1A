@@ -50,7 +50,7 @@ docker run -v "${PWD}/input:/app/input" -v "${PWD}/output:/app/output" pdf-outli
 
 # CMD (Windows)
 docker run -v "%cd%\input:/app/input" -v "%cd%\output:/app/output" pdf-outline-extractor
-
+```
 ---
 
 ## 🧪 Example Output
