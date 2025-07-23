@@ -46,9 +46,22 @@ Adobe-Hackathon-1A/
 docker build -t pdf-outline-extractor .
 
 # PowerShell
-```bash
 docker run -v "${PWD}/input:/app/input" -v "${PWD}/output:/app/output" pdf-outline-extractor
 
 # CMD (Windows)
-```bash
 docker run -v "%cd%\input:/app/input" -v "%cd%\output:/app/output" pdf-outline-extractor
+
+---
+
+## 🧪 Example Output
+
+{
+  "title": "Understanding AI",
+  "outline": [
+    { "level": "H1", "text": "Introduction", "page": 1 },
+    { "level": "H2", "text": "History of AI", "page": 2 },
+    { "level": "H3", "text": "Symbolic AI", "page": 3 }
+  ]
+}
+
+---
