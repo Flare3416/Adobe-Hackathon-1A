@@ -52,7 +52,6 @@ dmypy.json
 # Docker
 *.tar
 *.log
-.dockerignore
 
 # Output files
 output/
