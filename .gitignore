@@ -26,6 +26,4 @@ dist/
 *.spec
 pip-log.txt
 
-# Output JSONs from script
-output/*.json
 
